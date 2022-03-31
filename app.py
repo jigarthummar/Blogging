@@ -116,4 +116,4 @@ def input():
         return redirect(url_for('index'))
     return render_template('input.html')
 
-app.run(host='localhost',port=5004,debug=True)
+app.run(host='localhost',port=5000,debug=True)
